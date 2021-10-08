@@ -2,6 +2,7 @@ package ch.zli.game.snake_game.classes;
 
 import java.util.Random;
 import java.util.Timer;
+import java.util.TimerTask;
 
 import ch.zli.game.gui.RedrawListener;
 import ch.zli.game.snake_game.SnakeGame;
@@ -74,7 +75,6 @@ public class SnakeGameLogic {
         }, 100, level.getLevelVelocity());
     
         // force redraw
-        …
     } 
     
     

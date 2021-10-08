@@ -2,7 +2,9 @@ package ch.zli.game.snake_game.classes;
 
 public class Desert {
 
-    int nextPos = 0;
+    int size;
+
+    int nextPos;
 
     public Desert(){
         
