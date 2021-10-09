@@ -4,11 +4,12 @@ import javax.swing.JPanel;
 
 import ch.zli.game.gui.RedrawListener;
 import ch.zli.game.gui.SwingGameGui;
+import ch.zli.game.gui.GamePainter;
 import ch.zli.game.snake_game.SnakeGame;
 
 import java.awt.Graphics2D;
 
-public class SwingSnakeGame implements SwingGamePainter, RedrawListener {
+public class SwingSnakeGame implements GamePainter, RedrawListener {
 
 	private SnakeGame snakeGame;
 	private SwingGameGui snakeGui;
